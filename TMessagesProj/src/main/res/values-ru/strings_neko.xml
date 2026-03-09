@@ -314,6 +314,7 @@
     <string name="HideChannelBottomButtons">Скрыть кнопки в каналах</string>
     <string name="TranslationKeepFormatting">Сохранять форматирования текста при переводе</string>
     <string name="PredictiveBackAnimation">Предиктивная обратная анимация</string>
+    <string name="HideBottomNavigationBar">Скрыть нижнюю панель навигации</string>
     <!-- Accessibility -->
     <string name="AccessibilitySettings">Настройки доступности</string>
 </resources>

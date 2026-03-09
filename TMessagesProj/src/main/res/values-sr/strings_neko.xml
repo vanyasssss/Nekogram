@@ -22,8 +22,6 @@
     <string name="AddToSavedMessages">Сачувај поруку</string>
     <string name="CreateMention">Направи спомињање</string>
     <string name="Prpr">Пероперо</string>
-    <string name="EnableResidentNotification">Омогући трајно обавештење</string>
-    <string name="DisableResidentNotification">Онемогући трајно обавештење</string>
     <string name="NekogramRunning">Nekogram је покренут</string>
     <string name="EventType">Пакет икона на бочној траци</string>
     <string name="DependsOnDate">Зависно од датума</string>
@@ -32,7 +30,6 @@
     <string name="DeleteDownloadedFile">Избриши преузету датотеку</string>
     <string name="TestBackendOn">Овај налог ће се повезати са тестним сервером.</string>
     <string name="TestBackendOff">Овај налог ће се повезати са основним сервером.</string>
-    <string name="ViewHistory">Погледај историју</string>
     <string name="Nya">Мјау!</string>
     <string name="StickerSize">Величина налепница</string>
     <string name="StickerSizeLeft">Мала</string>
@@ -313,6 +310,10 @@
     <string name="AutoInlineBotDesc">Аутоматско постављање упита усклађеног бота на основу текста поруке.</string>
     <string name="ShortStandardQuality">SD</string>
     <string name="ForceFontWeightFallback">Присили резервну дебљину фонта</string>
+    <string name="HideChannelBottomButtons">Сакриј доњу дугмад канала</string>
+    <string name="TranslationKeepFormatting">Сачувај форматирање текста у преводу</string>
+    <string name="PredictiveBackAnimation">Предвиђање анимације назад</string>
+    <string name="HideBottomNavigationBar">Сакриј доњу траку за навигацију</string>
     <!-- Accessibility -->
     <string name="AccessibilitySettings">Подешавања приступачности</string>
 </resources>

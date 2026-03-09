@@ -315,6 +315,7 @@
     <string name="HideChannelBottomButtons">チャンネル内の下部のボタンを非表示</string>
     <string name="TranslationKeepFormatting">翻訳時にテキストの書式を保持</string>
     <string name="PredictiveBackAnimation">予測バックアニメーション</string>
+    <string name="HideBottomNavigationBar">下部のナビゲーションバーを非表示</string>
     <!-- Accessibility -->
     <string name="AccessibilitySettings">ユーザー補助の設定</string>
 </resources>

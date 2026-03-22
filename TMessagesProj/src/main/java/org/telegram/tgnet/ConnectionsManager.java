@@ -137,7 +137,7 @@ public class ConnectionsManager extends BaseController {
         }
     };
 
-    private boolean forceTryIpV6;
+    private boolean forceTryIpV6 = false;
 
     static {
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(CORE_POOL_SIZE, MAXIMUM_POOL_SIZE, KEEP_ALIVE_SECONDS, TimeUnit.SECONDS, sPoolWorkQueue, sThreadFactory);
@@ -145,11 +145,9 @@ public class ConnectionsManager extends BaseController {
         DNS_THREAD_POOL_EXECUTOR = threadPoolExecutor;
     }
 
-    public void setForceTryIpV6(boolean forceTryIpV6) {
-        if (this.forceTryIpV6 != forceTryIpV6) {
-            this.forceTryIpV6 = forceTryIpV6;
-            checkConnection();
-        }
+   public void setForceTryIpV6(boolean forceTryIpV6) {
+    this.forceTryIpV6 = false;
+}
     }
 
     public void discardConnection(int dcId, int connectionType) {
